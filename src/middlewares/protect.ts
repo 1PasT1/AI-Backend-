@@ -5,6 +5,7 @@ import User from "../models/user";
 import { catchAsync } from "../utils/catchAsync";
 
 interface UserPayload {
+  role(role: any): unknown;
   id: string;
   email: string;
   iat: number;

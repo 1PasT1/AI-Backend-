@@ -28,9 +28,6 @@ export interface UserDoc extends Document {
   password: string;
   passwordConfirm: string;
   active: boolean;
-  firstName: string;
-  lastName: string;
-  role: string;
   passwordChangedAt: Date;
   passwordResetToken: string;
   passwordResetExpires: Date;
